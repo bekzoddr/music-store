@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="icon" href="assets/images/Love_Music.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.min.css" />
+    <title>Music player</title>
+  </head>
+  <body>
+    <div class="loading">
+      <div class="wrapper">
+        <div class="blue ball"></div>
+        <div class="red ball"></div>
+        <div class="yellow ball"></div>
+        <div class="green ball"></div>
+      </div>
+    </div>
+    <header>
+      <nav>
+        <div class="nav-bar">
+          <i class="bx bx-menu sidebarOpen"></i>
+          <span class="logo navLogo"><a href="#">Bek media</a></span>
+          <div class="menu">
+            <div class="logo-toggle">
+              <span class="logo"><a href="#">Bek media</a></span>
+              <i class="bx bx-x siderbarClose"></i>
+            </div>
+            <ul class="nav-links">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Dropdown
+                  <i
+                    onclick="toggleDropdown()"
+                    class="fa-solid fa-chevron-down"
+                  ></i>
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a
+                    target="_blank"
+                    href="https://movies-app-tawny-eight.vercel.app/"
+                  >
+                    <i class="fa-solid fa-video"></i> Movies</a
+                  >
+                  <a href="https://t.me/bek_personal_blog"
+                    ><i class="fa-brands fa-telegram"></i> Telegram</a
+                  >
+                  <a href="https://www.instagram.com/"
+                    ><i class="fa-brands fa-instagram"></i> Instagram</a
+                  >
+                </div>
+              </div>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="darkLight-searchBox">
+            <div class="dark-light">
+              <i class="bx bx-moon moon"></i>
+              <i class="bx bx-sun sun"></i>
+            </div>
+            <div class="searchBox">
+              <div class="searchToggle">
+                <i class="bx bx-x cancel"></i>
+                <i class="bx bx-search search"></i>
+              </div>
+              <div class="search-field">
+                <input type="text" placeholder="Search..." />
+                <i class="bx bx-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="album-cover">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="assets/images/sad anime boy.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/sweater weather.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/na grani.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://www.billieeilish.com/files/2021/04/release_202104_BE-HTE-Title-Cover-1024x1024.jpg"
+                />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/images/let her go.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/dusk till dawn.jpg" />
+              </div>
+              <div class="swiper-slide lie">
+                <img src="assets/images/eyes don't lie.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/I Cant Get You Out Of My Head.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/4c5c1727-8b32-48c1-91de-b0496ccf10f6"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/images/JONY, HammAli & Navai – Без тебя я не я.jpg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/adele.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/naruto sadness and sorrow.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/another love.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/bellyache.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/chandelier.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/unstoppable sia.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/slova patsana.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/adele set fire to the rain.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/i'm yours.webp" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/sigma.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/SHOXRUX – CHILPARCHIN.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/images/Lana Del Rey – Summertime Sadness.jpg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/uchiha-madara-leador-of-uchiha.gif" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/loki.webp" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/sigma robot phonk.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/bmw 9MM.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="music-player">
+          <h1>Title</h1>
+          <p>Song Name</p>
+
+          <audio id="song">
+            <source src="song-list/Luke-Bergs-Gold.mp3" type="audio/mpeg" />
+          </audio>
+
+          <input type="range" value="0" id="progress" />
+
+          <div class="controls">
+            <button class="backward">
+              <i class="fa-solid fa-backward"></i>
+            </button>
+            <button class="play-pause-btn">
+              <i class="fa-solid fa-play" id="controlIcon"></i>
+            </button>
+            <button class="forward">
+              <i class="fa-solid fa-forward"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
